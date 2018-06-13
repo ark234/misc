@@ -12,7 +12,7 @@ const sortByStrings = (s, t) => {
 	const resultArr = [];
 
 	tArr.forEach(letterT => {
-		sArr.forEach((letterS, i, arr) => {
+		sArr.forEach(letterS => {
 			if (letterS === letterT) {
 				resultArr.push(letterS); // push letter onto result array
 			}
