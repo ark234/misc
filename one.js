@@ -24,7 +24,7 @@ const sortByStrings = (s, t) => {
 /**
  * Functional Test
  */
-const testSortByStrings = sortByStrings => {
+const testSortByStrings = () => {
 	console.log('TEST 1:');
 	if (sortByStrings('weather', 'therapyw') === 'theeraw') {
 		console.log('PASSED');
